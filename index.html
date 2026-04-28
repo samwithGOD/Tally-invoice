@@ -2,24 +2,47 @@
 <html>
 <head>
   <title>Tally Invoice Archive</title>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Inline banner styling (or move to style.css) */
-    .banner {
-      background-color: #004080;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 28px;
+    /* Profile corner styling */
+    .profile-corner {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #f0f0f0;
+      border: 2px solid #004080;
+      border-radius: 8px;
+      padding: 10px 15px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #004080;
+      text-align: right;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .profile-corner h4 {
+      margin: 0;
+      font-size: 16px;
       font-weight: bold;
-      letter-spacing: 2px;
+    }
+    .profile-corner p {
+      margin: 2px 0;
     }
   </style>
 </head>
 <body>
-  <!-- Banner -->
-  <div class="banner">samwithGOD</div>
+  <!-- Header Banner -->
+  <header class="banner">samwithGOD</header>
 
+  <!-- Profile Corner -->
+  <div class="profile-corner">
+    <h4>Profile</h4>
+    <p><strong>Name:</strong> JSS Ltd</p>
+    <p><strong>Email:</strong> jssltd@gmail.com</p>
+    <p><strong>GSTIN:</strong> 28ULRPJ3170T5Z8</p>
+  </div>
+
+  <!-- Archive Content -->
   <h2>Invoices</h2>
   <h3>2026</h3>
   <ul>
@@ -28,6 +51,10 @@
       <a href="Sales_24.html">HTML</a> | 
       <a href="sample%20tax%20invoice%20(1).pdf">PDF</a>
     </li>
+    <!-- Add more invoices here -->
   </ul>
+
+  <!-- Footer Banner -->
+  <footer class="footer-banner">Powered by samwithGOD</footer>
 </body>
 </html>
