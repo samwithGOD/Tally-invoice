@@ -2,3 +2,13 @@ body { font-family: Arial; background:#f9f9f9; }
 h2 { color:#004080; }
 a { text-decoration:none; color:#0066cc; }
 a:hover { text-decoration:underline; }
+/* samwithGOD banner styling */
+.banner {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
